@@ -1,0 +1,36 @@
+{
+  "model_name": "XGBoost (retrained)",
+  "trained_at": "2026-09-16T16:21:39.659701",
+  "threshold": 0.3677259683609009,
+  "roc_auc_val": 0.3079,
+  "numeric_features": [
+    "CNT_CHILDREN",
+    "AMT_INCOME_TOTAL",
+    "AMT_CREDIT",
+    "AMT_ANNUITY",
+    "AMT_GOODS_PRICE",
+    "REGION_POPULATION_RELATIVE",
+    "DAYS_BIRTH",
+    "DAYS_EMPLOYED",
+    "FLAG_WORK_PHONE",
+    "FLAG_PHONE",
+    "FLAG_EMAIL",
+    "EXT_SOURCE_1",
+    "EXT_SOURCE_2",
+    "EXT_SOURCE_3",
+    "credit_income_ratio",
+    "annuity_income_ratio",
+    "employed_years",
+    "age_years"
+  ],
+  "categorical_features": [
+    "NAME_CONTRACT_TYPE",
+    "CODE_GENDER",
+    "NAME_INCOME_TYPE",
+    "NAME_EDUCATION_TYPE",
+    "NAME_FAMILY_STATUS",
+    "FLAG_OWN_CAR",
+    "FLAG_OWN_REALTY",
+    "OCCUPATION_TYPE"
+  ]
+}
